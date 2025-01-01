@@ -10,6 +10,10 @@
   --black-color: black;
   --simple--color: white;
 }
+html{
+  scroll-behavior: smooth;
+scroll-snap-type: mandatory;
+}
 body {
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
@@ -197,7 +201,7 @@ h1 span {
   transition: 300ms;
 }
 .our-menu .cart:hover {
-  transform: scale(0.9);
+  transform: scale(0.95);
   box-shadow: rgba(240, 91, 4, 0.19) 0px 10px 20px,
     rgba(247, 115, 7, 0.23) 0px 6px 6px;
   box-shadow: rgba(243, 110, 2, 0.25) 0px 30px 60px 12px inset,
